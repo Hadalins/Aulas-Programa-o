@@ -1,0 +1,60 @@
+import java.util.Scanner; 
+
+public class Teste {
+
+      public static void main(String[] args) {
+            // TODO Auto-generated method stub
+            
+            Scanner ts = new Scanner(System.in);
+            
+            System.out.println("informe um numero :");
+            int n1 = ts.nextInt(); 
+            
+            System.out.println("informe outro numero :");
+            int n2 = ts.nextInt(); 
+            
+            int total = (n1 + n2);
+            
+                  if (total >= 20) { 
+                        total = total + 8; 
+                              System.out.println("O resultado é :" + total );
+                  } 
+                        else   { 
+                              
+                              total = total - 5;
+                              System.out.println("O resultado desta vez é :" + total );
+            }
+                  
+                        
+      }
+
+}
+
+
+##################################################################
+
+
+
+
+import java.util.Scanner; 
+
+public class ParImpar {
+
+      public static void main(String[] args) {
+            // TODO Auto-generated method stub
+
+            Scanner ts = new Scanner(System.in);
+
+            System.out.println("informe um numero :");
+            int n1 = ts.nextInt();
+            
+            if (n1 % 2  == 0) {
+                  System.out.println(n1 + " é par");
+            }
+            else {
+                  System.out.println(n1 + "é impar");
+            }
+      } 
+
+}
+
